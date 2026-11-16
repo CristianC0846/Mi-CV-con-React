@@ -19,7 +19,7 @@ body {
 
 /* ===== Header: degradado morado -> azul ===== */
 .header {
-  background: linear-gradient(to right, #9333ea, #3b82f6);
+  background: linear-gradient(to right, #79f093, #f7a2a2);
   color: white;
   padding: 40px;
   text-align: center;
