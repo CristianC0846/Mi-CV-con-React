@@ -16,7 +16,7 @@ function App() {
           className="foto-perfil"
         />
         <h1>Cristian Ceamanos Gañarul</h1>
-        <h2>Desarrollador Web Frontend</h2>
+        <h2>Desarrollador de Aplicaciones Multiplataforma</h2>
         <p>📧 crisceagana@gmail.com | 📱 644 88 95 45 | 📍 Zaragoza, España</p>
       </div>
 
@@ -26,9 +26,8 @@ function App() {
         <h2 className="titulo-seccion">Sobre Mí</h2>
         <p>
           Desarrollador de aplicaciones móviles, apasionado por crear interfaces limpias, accesibles
-          y fáciles de usar. Actualmente me especializo en React y busco
-          oportunidades donde seguir creciendo y aportar valor a un equipo
-          de desarrollo.
+          y fáciles de usar. Actualmente me especializo en React, pero tengo experiencia tanto con Java como con Kotlin e incluso Figma, y busco
+          oportunidades donde seguir creciendo y aportar valor a un equipo de desarrollo.
         </p>
       </div>
 
