@@ -54,13 +54,12 @@ function App() {
 
         {/* Experiencia 1 */}
         <div className="item-experiencia">
-          <h3>Desarrollador Frontend (Prácticas)</h3>
-          <p className="empresa">TechSolutions S.L.</p>
+          <h3>Desarrollador Web</h3>
+          <p className="empresa">Transportes Gañarul e Hijos</p>
           <p className="periodo">2023 - 2024</p>
           <p>
-            Desarrollo de componentes reutilizables con React y maquetación
-            responsive de la web corporativa, mejorando el tiempo de carga
-            de las páginas principales.
+            Desarrollo de la página web de la empresa y posterior mantenimiento
+            para garantizar su buen funcionamiento y mantenerla actualizada.
           </p>
         </div>
 
@@ -68,7 +67,7 @@ function App() {
         <div className="item-experiencia">
           <h3>Técnico Informático</h3>
           <p className="empresa">Ecomputer Utebo</p>
-          <p className="periodo">2025 - 2026</p>
+          <p className="periodo">2025 - Actualidad</p>
           <p>
             Técnico Informático especializado en arreglar PCs de clientes, 
             dar soporte técnico por remoto y mejorar y limpiar portatiles

@@ -68,3 +68,68 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Mi CV en React
+
+Currículum vitae personal creado con React como actividad de la asignatura de Desarrollo de Interfaces (DI). Es un componente visual que muestra mi información personal, habilidades, experiencia profesional y educación, con estilos CSS propios.
+
+Captura del resultado
+
+Captura de mi CV en React
+
+Contenido del CV
+
+El componente principal App() incluye estas secciones:
+
+Header: foto de perfil, nombre, título profesional y datos de contacto, con fondo en degradado morado/azul.
+Sobre mí: descripción breve del perfil profesional.
+Habilidades y lenguajes: tecnologías mostradas como etiquetas visuales.
+Experiencia profesional: puesto, empresa, periodo y descripción.
+Educación: título, centro educativo y años.
+Herramientas empleadas
+Herramienta	Para qué se usa
+Node.js y npm	Entorno de ejecución y gestor de paquetes
+Create React App	Creación y configuración del proyecto React
+React	Creación del componente visual con JSX
+CSS	Estilos: degradados, bordes redondeados, sombras y diseño adaptable a móvil
+Visual Studio Code	Editor de código
+Navegador y consola (F12 / DevTools)	Prueba del componente y comprobación de que no hay errores
+Git y GitHub	Control de versiones y publicación del repositorio
+Requisitos previos
+Node.js instalado (incluye npm). Se puede comprobar con node -v y npm -v.
+Git para clonar el repositorio.
+
+Cómo ejecutarlo
+1- Clona el repositorio:
+bash
+git clone https://github.com/CristianC0846/Mi-CV-con-React.git
+
+2- Entra en la carpeta del proyecto:
+bash
+cd Mi-CV-con-React
+
+3- Instala las dependencias (la carpeta node_modules no se sube al repositorio):
+bash
+npm install
+
+4- Arranca la aplicación:
+bash
+npm start
+
+5- Abre http://localhost:3000 en el navegador. Para detener el servidor, pulsa Ctrl + C en la terminal.
+
+Si se descarga el repositorio como ZIP, hay que descomprimirlo, entrar en la carpeta que contiene package.json y ejecutar los mismos pasos 3 y 4.
+
+Estructura del proyecto
+├── public/          # Archivos públicos (index.html, foto de perfil...)
+├── src/
+│   ├── App.js       # Componente principal App() con todo el CV en JSX
+│   ├── App.css      # Estilos del CV
+│   └── index.js     # Punto de entrada que renderiza <App />
+├── Captura CV/      # Captura del resultado
+├── package.json     # Dependencias y scripts
+└── .gitignore       # Excluye node_modules y otros archivos generados
+Documentación del código
+En src/App.js, cada sección del JSX lleva un comentario que indica qué contiene.
+En src/App.css, las reglas principales llevan comentarios que explican qué hace cada estilo.
